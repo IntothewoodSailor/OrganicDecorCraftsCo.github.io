@@ -170,9 +170,6 @@ html, body  {
     font-family: inherit;
     text-decoration: inherit;
     display: block;
-    justify-self: center;
-    left:0;
-    right:0;
     text-align: center;
 }
 .teleport:hover{
@@ -741,6 +738,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
