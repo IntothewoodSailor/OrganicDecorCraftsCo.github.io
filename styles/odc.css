@@ -107,7 +107,7 @@ html, body  {
     height: 49px;
     color: rgb(33, 60, 50);
     border: 3px,rgb(60, 132, 100),solid;
-    border-bottom-color: rgb(33, 60, 50);
+    /*border-bottom-color: rgb(33, 60, 50);*/
     justify-self: center;
     z-index: 1;
 }
@@ -133,9 +133,9 @@ html, body  {
     padding-bottom: 1px;
     margin-top: 3.1px;
     line-height: 50%;
-    border: 0px,rgb(33, 60, 50), solid;
+    /*border: 0px,rgb(33, 60, 50), solid;
     border-left-width: 3px;
-    border-bottom-width: 3px;
+    border-bottom-width: 3px;*/
     height: 100vh;
     /*height: 260px;*/
 }
@@ -172,6 +172,7 @@ html, body  {
     justify-self: center;
     left:0;
     right:0;
+    text-align: center;
 }
 .teleport:hover{
     text-decoration: overline;
@@ -410,6 +411,7 @@ footer{
     min-width:0px;
     max-width: 496px;
     justify-self: center;
+    text-align: center;
     font-weight: bold;
     font-size: 24px;
     padding: 8px;
@@ -534,7 +536,9 @@ td.calendar{
     color: ivory;
     background-color:rgb(60, 132, 100);
     z-index: 1;
-    min-width: fit-content;
+    min-width: 220px;
+    width: fit-content;
+    min-height:70px;
     font-family:cursive;
     font-size: 30px;
     position: fixed;
@@ -734,6 +738,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
