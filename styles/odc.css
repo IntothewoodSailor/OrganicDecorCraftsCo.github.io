@@ -2,6 +2,7 @@ body{
     background-color: black;
     text-align: left;
     justify-content: center;
+    justify-self: center;
 }
 
 a{
@@ -536,10 +537,10 @@ td.calendar{
     color: ivory;
     background-color:rgb(60, 132, 100);
     z-index: 1;
-    min-width: 220px;
+    min-width: 200px;
     width: fit-content;
-    min-height:70px;
-    font-family:cursive;
+    min-height:65px;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     position: fixed;
     bottom: 1%;
@@ -648,7 +649,7 @@ td.calendar{
     body{
         max-width: 60%;
        justify-self: center;
-       margin-left: 325px;
+       margin-left: 330px;
     }
 
     .upbutton{
@@ -738,6 +739,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
