@@ -564,9 +564,6 @@ td.calendar{
 }
 
 .notice{
-    justify-self:center;
-    left:0;
-    right:0;
     max-width: 492px;
     width: fit-content;
     padding: 5px;
@@ -738,6 +735,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
