@@ -250,6 +250,8 @@ html, body  {
     width: 24%;
     margin-bottom: 7px;
     margin-top: 66px;
+    margin-left: 3px;
+    margin-right: -3px;
     padding-left: 0px;
     padding-right: 0px;
     font-weight: bold;
@@ -739,6 +741,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
