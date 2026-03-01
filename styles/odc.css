@@ -168,6 +168,8 @@ html, body  {
     text-decoration: inherit;
     display: block;
     justify-self: center;
+    left:0;
+    right:0;
 }
 .teleport:hover{
     text-decoration: overline;
@@ -237,7 +239,7 @@ html, body  {
     text-decoration: overline;
     color:ivory;
     font-size: clamp(22px,6vw,26px);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     padding-bottom: 7px;
     padding-top: 7px;
@@ -270,7 +272,7 @@ html, body  {
     border-style: hidden;
     color: ivory;
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     display: block;
 }
@@ -331,7 +333,7 @@ button.allmenu{
     border-style: hidden;
     color: ivory;
     font-size: 24px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     left: 10px;
     position:fixed;
@@ -378,7 +380,7 @@ footer{
     max-width: 512px;
     justify-self: center;
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     color: rgb(129, 192, 164);
     text-align: center;
     padding-top: 10px;
@@ -390,7 +392,7 @@ footer{
     text-align: center;
     margin-bottom:3%;
     font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     margin: auto;
     justify-self: center;
@@ -437,7 +439,7 @@ footer{
     text-align: center;
     margin-bottom: 3%;
     font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     max-width: 512px;
     width: 90vw;
@@ -557,11 +559,13 @@ td.calendar{
 
 .notice{
     justify-self:center;
+    left:0;
+    right:0;
     max-width: 492px;
     width: fit-content;
     padding: 5px;
     background-color: rgb(33, 60, 50, 0.95);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
     font-size: 140%;
     color: ivory;
     text-align: center;
@@ -728,4 +732,3 @@ td.calendar{
         display: inline;
     }
 }
-
