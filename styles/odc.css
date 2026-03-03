@@ -1,8 +1,5 @@
 body{
     background-color: black;
-    text-align: left;
-    justify-content: center;
-    align-self: center;
 }
 
 a{
@@ -740,6 +737,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
