@@ -406,7 +406,7 @@ footer{
     background-color: rgb(240, 255, 240, 0.95);
     color: rgb(33, 60, 50);
     /*width: clamp(322px,75%,400px);*/
-    width:100%;
+    width:95.5%;
     max-width: 496x;
     display: block;
     max-width: 496px;
@@ -738,6 +738,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
