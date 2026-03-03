@@ -400,8 +400,6 @@ footer{
     font-style: italic;
     margin: auto;
     justify-self: center;
-    left: 0;
-    right: 0;
 }
 .drop{
     background-color: rgb(240, 255, 240, 0.95);
@@ -738,6 +736,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
