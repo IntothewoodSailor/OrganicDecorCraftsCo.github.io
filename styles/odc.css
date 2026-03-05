@@ -634,13 +634,13 @@ td.calendar{
     position: fixed;
     top: 0%;
     bottom: 0%;
-    right: 0%;
-    left: unset;
+    right: 0;
+    left: 0;
     height: 100vh;
     max-height: 100vh;
     max-width: 100vw;
     z-index: 3;
-    justify-self: right;
+    justify-self: center;
     }
     
     body{
@@ -736,6 +736,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
