@@ -41,6 +41,7 @@ a:hover{
     min-height: 502px;
 }
 
+/*
 #fullview:active{
     position: sticky;
     top: 66px;
@@ -52,6 +53,7 @@ a:hover{
     z-index: 3;
     justify-self: center;
 }
+*/
 
 /*
 .topphot{
@@ -736,6 +738,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
