@@ -36,9 +36,9 @@ a:hover{
     justify-self: center;
 }
 #vimg{
-    width: unset;
-    height: 25rem;
-    min-height: 502px;
+    height: 502px;
+    max-height: 80vh;
+    width: auto;
 }
 
 /*
@@ -739,6 +739,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
