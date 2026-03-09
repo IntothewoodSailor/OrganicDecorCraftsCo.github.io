@@ -3,7 +3,7 @@ body{
     user-select: none;
 }
 
-details:hover{
+summary:hover{
     cursor: pointer;
 }
 
@@ -308,7 +308,6 @@ details.sidebutton{
 }
 details.sidebutton:hover{
     text-shadow: black 1px 1px 5px;
-    cursor: pointer;
 }
 
 #subside{
@@ -743,6 +742,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
