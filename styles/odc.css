@@ -40,8 +40,9 @@ a:hover{
     justify-self: center;
 }
 #vimg{
-    height: 502px;
+    height: auto;
     max-height: 80vh;
+    max-width: 100%;
     width: auto;
 }
 
@@ -761,4 +762,5 @@ td.calendar{
         display: inline;
     }
 }
+
 
