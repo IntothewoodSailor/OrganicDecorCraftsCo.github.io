@@ -3,6 +3,10 @@ body{
     user-select: none;
 }
 
+details:hover{
+    cursor: pointer;
+}
+
 a{
     color: inherit;
     padding: 0%;
@@ -739,6 +743,7 @@ td.calendar{
         display: inline;
     }
 }
+
 
 
 
