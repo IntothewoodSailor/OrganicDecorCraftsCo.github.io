@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    user-select: none;
+    user-select:none;
 }
 
 summary:hover{
@@ -17,8 +17,8 @@ a::selection{
 }
 a:hover{
     color: inherit;
-    opacity: 90%;
     cursor:pointer;
+    opacity:90%;
 }
 
 .logo{
@@ -107,14 +107,13 @@ html, body  {
     padding-bottom: 4px;
     text-align: left;
     background-color:rgb(60, 132, 100);
-    z-index: 0;
+    z-index: 2;
     font-size: 38px;
     height: 49px;
     color: rgb(33, 60, 50);
     border: 3px,rgb(60, 132, 100),solid;
     /*border-bottom-color: rgb(33, 60, 50);*/
-    align-self: center;
-    z-index: 1;
+    justify-self: center;
 }
 
 .sidebar{
@@ -196,7 +195,7 @@ html, body  {
     left: 120px;
     font-size: 39px;
     color: rgb(33, 60, 50); 
-    z-index: 1;
+    z-index: 2;
     transition: 0.5s;
     @starting-style{
         top: -100vh;
@@ -230,7 +229,7 @@ html, body  {
     position: fixed;
     top: 7px;
     left: -3px;
-    z-index: 1;
+    z-index: 2;
 }
 .fixedhomebutton:hover{
     opacity: 80%;
@@ -333,6 +332,7 @@ div.allmenu{
     border: 3px,rgb(33, 60, 50) solid;
     border-top: none;
     border-left: none;
+    z-index: -1;
 }
 
 button.allmenu{
@@ -344,7 +344,7 @@ button.allmenu{
     font-style: italic;
     left: 10px;
     position:fixed;
-    z-index: -1;
+    z-index: 0;
     visibility: hidden;
 }
 button.allmenu:hover{
@@ -406,11 +406,13 @@ footer{
     width:100%;
 }
 .drop{
+    position: sticky;
+    top:66px;
+    z-index: 1;
     background-color: rgb(240, 255, 240, 0.95);
     color: rgb(33, 60, 50);
     /*width: clamp(322px,75%,400px);*/
     width:95.5%;
-    max-width: 496x;
     display: block;
     max-width: 496px;
     justify-self: center;
@@ -495,7 +497,6 @@ td.calendar{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    z-index: 1;
     opacity: 95%;
 }
 .white{
@@ -538,7 +539,7 @@ td.calendar{
     display: block;
     color: ivory;
     background-color:rgb(60, 132, 100);
-    z-index: 1;
+    z-index: 3;
     min-width: 200px;
     width: fit-content;
     min-height:65px;
@@ -644,7 +645,7 @@ td.calendar{
     height: 100vh;
     max-height: 100vh;
     max-width: 100vw;
-    z-index: 3;
+    z-index: 4;
     justify-self: center;
     width: unset;
     }
@@ -687,6 +688,10 @@ td.calendar{
     .order{
         right: 3%;
         left: unset;
+    }
+    .drop{
+        position: sticky;
+        top: 0px;
     }
 }
 
@@ -742,25 +747,3 @@ td.calendar{
         display: inline;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
